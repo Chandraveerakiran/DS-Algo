@@ -23,3 +23,8 @@ public class PrintDivisors {
         System.out.println("Divisors of " + n + ": " + result);
     }
 }
+
+// Time Complexity: O(n)
+//   → We iterate from 1 to n.
+// Space Complexity: O(k)
+//   → Where k is the number of divisors of n (stored in ArrayList).
