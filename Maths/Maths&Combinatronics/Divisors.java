@@ -1,20 +1,8 @@
-class Divisors{
-    public static void main(String[] args){
-        int n=36;
-        for(int i=1;i*i<=n;i++){
-            if(n%i==0){
-                System.out.println(i);
-                if(i!=n/i){
-                System.out.println(n/i);
-            }
-            }
-        }
-    }
-}
 /*
  * ✅ Problem: Find all divisors of a given number
  *  brute force: Check all possible divisors from 1 to n (Can't handles large number) TC-O(n)
- * ✨ Approach: Optimized Square Root Method TC - O(√n)
+ * ✨ Approach: Optimized Square Root Method TC - O(√n) (Handles the Large number too ) 
+    
 
  
  * 🔍 Description:
@@ -30,3 +18,18 @@ class Divisors{
  * ⏱️ Time Complexity: O(√n)
  * 📦 Space Complexity: O(1)
  */
+
+class Divisors{
+    public static void main(String[] args){
+        int n=36;
+        for(int i=1;i*i<=n;i++){
+            if(n%i==0){
+                System.out.println(i);
+                if(i!=n/i){
+                System.out.println(n/i);
+            }
+            }
+        }
+    }
+}
+
