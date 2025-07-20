@@ -6,7 +6,7 @@
  * Input: num = 38
  * Process: 38 → 3 + 8 = 11 → 1 + 1 = 2
  * Output: 2
- *
+ 
  *  Goal:
  * Return a single-digit number by repeatedly summing the digits of the given number.
  *
