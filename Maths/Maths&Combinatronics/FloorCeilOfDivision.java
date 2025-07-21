@@ -33,7 +33,6 @@ public class FloorCeilOfDivision {
     }
 }
 ===============================================================
-
 // Time Complexity: O(1) – Constant time division and math operations
 // Space Complexity: O(1) – Uses only basic variables and a result list of size 2
 
