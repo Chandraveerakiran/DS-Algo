@@ -9,10 +9,9 @@ Output: Binary: 1100
 - Keep dividing the number `n` by 2.
 - Store the remainder of each division (which will be either 0 or 1).
 - Append each remainder to the front of a string to build the binary representation in correct order.
-
-Code:
 */
 ==================================================================
+//Code:
 public class DecitoBinary {
     public static void main(String[] args) {
         int n = 12;          // Input number
@@ -29,14 +28,14 @@ public class DecitoBinary {
     }
 }
 ===================================================================
+/*
+ Time Complexity: O(log₂ n)
+ Space Complexity: O(log₂ n)
 
-//  Time Complexity: O(log₂ n)
-//  Space Complexity: O(log₂ n)
-
-//  Explanation:
-// - 12 / 2 = 6, remainder = 0
-// - 6 / 2 = 3, remainder = 0
-// - 3 / 2 = 1, remainder = 1
-// - 1 / 2 = 0, remainder = 1
-// => Binary = 1100
-
+ Explanation:
+- 12 / 2 = 6, remainder = 0
+- 6 / 2 = 3, remainder = 0
+- 3 / 2 = 1, remainder = 1
+- 1 / 2 = 0, remainder = 1
+=> Binary = 1100
+*/
