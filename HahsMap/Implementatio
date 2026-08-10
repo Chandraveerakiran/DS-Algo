@@ -1,1 +1,27 @@
+//libraries
+import java.util.HashMap;
+import java.util.Map;
+or // import java.util.*;
 
+class Main{
+    public static void main(String[]args){
+        int arr[]={1,2,2,1,3,3,4,4};
+  //Hashmap implemention
+        HashMap<Integer,Integer> map= new HashMap<>();
+//passing the arr values into hash map 
+        for(int i=0;i<arr.length;i++){
+//used to put the data in the hashmap with frq...
+            map.put(arr[i],map.getOrDefault(arr[i],0)+1);
+        }
+/* to retrive the data from hashmap
+   |-> Map.Entry<I,I>  is an entry(a pair)   
+   |-> map.entrySet() holes crr entry
+*\
+        for(Map.Entry<Integer,Integer> entry : map.entrySet()){
+           // to get the curr entry pai and key 
+       //        |-> entry.getKey() and entry.getValue();
+            System.out.println(entry.getKey()+"->"+entry.getValue());
+        }
+        
+    }
+}
